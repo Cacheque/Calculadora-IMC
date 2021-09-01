@@ -23,7 +23,7 @@ function imc (){
             classificacao = ' com sobrepeso'
             document.body.style.background = 'yellow'
         } else if(valorIMC < 35){
-            classificacao = 'com obesidade grau 1'
+            classificacao = 'com obesidade grau I'
             document.body.style.background = '#995151'
         } else if(valorIMC < 40){
             classificacao = 'com obesidade grau II'
